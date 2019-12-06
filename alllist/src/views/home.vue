@@ -1,0 +1,16 @@
+<template>
+  <div class="home-title">
+      <div>首页</div>
+
+  </div>
+</template>
+
+<script>
+export default {
+
+}
+</script>
+
+<style>
+
+</style>
