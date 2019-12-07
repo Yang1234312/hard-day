@@ -1,0 +1,16 @@
+{
+  "name": "possible",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "egg-bin dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "egg-mysql": "^3.0.0",
+    "egg-validate": "^2.0.2"
+  }
+}

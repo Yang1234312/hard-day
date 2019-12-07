@@ -1,0 +1,691 @@
+2019-12-05 08:56:57,673 ERROR 3777 [-/127.0.0.1/-/0ms GET /] nodejs.ER_NOT_SUPPORTED_AUTH_MODEError: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Handshake.Sequence._packetToError (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:308:12)
+    --------------------
+    at Protocol._enqueue (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+code: "ER_NOT_SUPPORTED_AUTH_MODE"
+errno: 1251
+sqlMessage: "Client does not support authentication protocol requested by server; consider upgrading MySQL client"
+sqlState: "08004"
+fatal: true
+name: "ER_NOT_SUPPORTED_AUTH_MODEError"
+pid: 3777
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-05 08:57:20,742 ERROR 3967 [-/127.0.0.1/-/0ms GET /] nodejs.ER_NOT_SUPPORTED_AUTH_MODEError: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Handshake.Sequence._packetToError (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:308:12)
+    --------------------
+    at Protocol._enqueue (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+code: "ER_NOT_SUPPORTED_AUTH_MODE"
+errno: 1251
+sqlMessage: "Client does not support authentication protocol requested by server; consider upgrading MySQL client"
+sqlState: "08004"
+fatal: true
+name: "ER_NOT_SUPPORTED_AUTH_MODEError"
+pid: 3967
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-05 09:01:39,295 ERROR 4185 [-/127.0.0.1/-/0ms GET /] nodejs.ER_NOT_SUPPORTED_AUTH_MODEError: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Handshake.Sequence._packetToError (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:308:12)
+    --------------------
+    at Protocol._enqueue (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+code: "ER_NOT_SUPPORTED_AUTH_MODE"
+errno: 1251
+sqlMessage: "Client does not support authentication protocol requested by server; consider upgrading MySQL client"
+sqlState: "08004"
+fatal: true
+name: "ER_NOT_SUPPORTED_AUTH_MODEError"
+pid: 4185
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-05 09:02:38,053 ERROR 4216 [-/127.0.0.1/-/0ms GET /] nodejs.ER_NOT_SUPPORTED_AUTH_MODEError: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Handshake.Sequence._packetToError (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:308:12)
+    --------------------
+    at Protocol._enqueue (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+code: "ER_NOT_SUPPORTED_AUTH_MODE"
+errno: 1251
+sqlMessage: "Client does not support authentication protocol requested by server; consider upgrading MySQL client"
+sqlState: "08004"
+fatal: true
+name: "ER_NOT_SUPPORTED_AUTH_MODEError"
+pid: 4216
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-05 09:04:42,604 ERROR 4219 [-/127.0.0.1/-/1ms GET /] nodejs.ER_NOT_SUPPORTED_AUTH_MODEError: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Handshake.Sequence._packetToError (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:308:12)
+    --------------------
+    at Protocol._enqueue (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+code: "ER_NOT_SUPPORTED_AUTH_MODE"
+errno: 1251
+sqlMessage: "Client does not support authentication protocol requested by server; consider upgrading MySQL client"
+sqlState: "08004"
+fatal: true
+name: "ER_NOT_SUPPORTED_AUTH_MODEError"
+pid: 4219
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-05 09:05:02,516 ERROR 4220 [-/127.0.0.1/-/0ms GET /] nodejs.ER_NOT_SUPPORTED_AUTH_MODEError: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Handshake.Sequence._packetToError (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:308:12)
+    --------------------
+    at Protocol._enqueue (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+code: "ER_NOT_SUPPORTED_AUTH_MODE"
+errno: 1251
+sqlMessage: "Client does not support authentication protocol requested by server; consider upgrading MySQL client"
+sqlState: "08004"
+fatal: true
+name: "ER_NOT_SUPPORTED_AUTH_MODEError"
+pid: 4220
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-05 09:06:04,772 ERROR 4228 [-/127.0.0.1/-/0ms GET /] nodejs.ER_NOT_SUPPORTED_AUTH_MODEError: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Handshake.Sequence._packetToError (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:308:12)
+    --------------------
+    at Protocol._enqueue (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+code: "ER_NOT_SUPPORTED_AUTH_MODE"
+errno: 1251
+sqlMessage: "Client does not support authentication protocol requested by server; consider upgrading MySQL client"
+sqlState: "08004"
+fatal: true
+name: "ER_NOT_SUPPORTED_AUTH_MODEError"
+pid: 4228
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-05 09:06:25,444 ERROR 4240 [-/127.0.0.1/-/0ms GET /] nodejs.ER_NOT_SUPPORTED_AUTH_MODEError: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Handshake.Sequence._packetToError (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:308:12)
+    --------------------
+    at Protocol._enqueue (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+code: "ER_NOT_SUPPORTED_AUTH_MODE"
+errno: 1251
+sqlMessage: "Client does not support authentication protocol requested by server; consider upgrading MySQL client"
+sqlState: "08004"
+fatal: true
+name: "ER_NOT_SUPPORTED_AUTH_MODEError"
+pid: 4240
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-05 09:06:29,128 ERROR 4241 [-/127.0.0.1/-/0ms GET /] nodejs.ER_NOT_SUPPORTED_AUTH_MODEError: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Handshake.Sequence._packetToError (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:308:12)
+    --------------------
+    at Protocol._enqueue (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+code: "ER_NOT_SUPPORTED_AUTH_MODE"
+errno: 1251
+sqlMessage: "Client does not support authentication protocol requested by server; consider upgrading MySQL client"
+sqlState: "08004"
+fatal: true
+name: "ER_NOT_SUPPORTED_AUTH_MODEError"
+pid: 4241
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-05 09:08:00,865 ERROR 4260 [-/127.0.0.1/-/0ms GET /] nodejs.ER_NOT_SUPPORTED_AUTH_MODEError: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Handshake.Sequence._packetToError (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:308:12)
+    --------------------
+    at Protocol._enqueue (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+code: "ER_NOT_SUPPORTED_AUTH_MODE"
+errno: 1251
+sqlMessage: "Client does not support authentication protocol requested by server; consider upgrading MySQL client"
+sqlState: "08004"
+fatal: true
+name: "ER_NOT_SUPPORTED_AUTH_MODEError"
+pid: 4260
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-05 09:08:17,004 ERROR 4274 [-/127.0.0.1/-/0ms GET /] nodejs.ER_NOT_SUPPORTED_AUTH_MODEError: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Handshake.Sequence._packetToError (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:308:12)
+    --------------------
+    at Protocol._enqueue (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+code: "ER_NOT_SUPPORTED_AUTH_MODE"
+errno: 1251
+sqlMessage: "Client does not support authentication protocol requested by server; consider upgrading MySQL client"
+sqlState: "08004"
+fatal: true
+name: "ER_NOT_SUPPORTED_AUTH_MODEError"
+pid: 4274
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-05 09:12:22,271 ERROR 4304 [-/127.0.0.1/-/0ms GET /] nodejs.ER_NOT_SUPPORTED_AUTH_MODEError: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Handshake.Sequence._packetToError (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:308:12)
+    --------------------
+    at Protocol._enqueue (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+code: "ER_NOT_SUPPORTED_AUTH_MODE"
+errno: 1251
+sqlMessage: "Client does not support authentication protocol requested by server; consider upgrading MySQL client"
+sqlState: "08004"
+fatal: true
+name: "ER_NOT_SUPPORTED_AUTH_MODEError"
+pid: 4304
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-05 09:23:51,946 ERROR 4488 [-/127.0.0.1/-/0ms GET /] nodejs.ER_ACCESS_DENIED_ERRORError: ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:308:12)
+    --------------------
+    at Protocol._enqueue (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+code: "ER_ACCESS_DENIED_ERROR"
+errno: 1045
+sqlMessage: "Access denied for user 'root'@'localhost' (using password: YES)"
+sqlState: "28000"
+fatal: true
+name: "ER_ACCESS_DENIED_ERRORError"
+pid: 4488
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-05 09:39:19,604 ERROR 4995 [-/127.0.0.1/-/0ms GET /] nodejs.ER_BAD_DB_ERRORError: ER_BAD_DB_ERROR: Unknown database '1706b'
+    at Handshake.Sequence._packetToError (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:308:12)
+    --------------------
+    at Protocol._enqueue (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+code: "ER_BAD_DB_ERROR"
+errno: 1049
+sqlMessage: "Unknown database '1706b'"
+sqlState: "42000"
+fatal: true
+name: "ER_BAD_DB_ERRORError"
+pid: 4995
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-05 19:37:09,315 ERROR 6515 [-/169.254.125.138/-/15ms POST /registry] nodejs.ReferenceError: id is not defined
+    at module.exports.index (/Users/yangpengcheng/Desktop/possible/app/controller/user.js:22:86)
+    at Object.callFn (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-core@4.17.3@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-core@4.17.3@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yangpengcheng/Desktop/possible/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yangpengcheng/Desktop/possible/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yangpengcheng/Desktop/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/yangpengcheng/Desktop/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yangpengcheng/Desktop/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+
+pid: 6515
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-05 19:40:34,933 ERROR 6542 [-/169.254.125.138/-/12ms POST /registry] nodejs.ReferenceError: id is not defined
+    at module.exports.index (/Users/yangpengcheng/Desktop/possible/app/controller/user.js:23:86)
+    at Object.callFn (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-core@4.17.3@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-core@4.17.3@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yangpengcheng/Desktop/possible/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yangpengcheng/Desktop/possible/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yangpengcheng/Desktop/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/yangpengcheng/Desktop/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yangpengcheng/Desktop/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+
+pid: 6542
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-05 20:54:18,405 ERROR 7364 [-/169.254.125.138/-/19ms POST /tologin] nodejs.ReferenceError: username is not defined
+    at module.exports.veriuser (/Users/yangpengcheng/Desktop/possible/app/controller/user.js:47:55)
+    at Object.callFn (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-core@4.17.3@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-core@4.17.3@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yangpengcheng/Desktop/possible/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yangpengcheng/Desktop/possible/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yangpengcheng/Desktop/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/yangpengcheng/Desktop/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yangpengcheng/Desktop/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+
+pid: 7364
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-05 20:54:34,358 ERROR 7364 [-/169.254.125.138/-/1ms POST /tologin] nodejs.ReferenceError: username is not defined
+    at module.exports.veriuser (/Users/yangpengcheng/Desktop/possible/app/controller/user.js:47:55)
+    at Object.callFn (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-core@4.17.3@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-core@4.17.3@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yangpengcheng/Desktop/possible/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yangpengcheng/Desktop/possible/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yangpengcheng/Desktop/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/yangpengcheng/Desktop/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yangpengcheng/Desktop/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+
+pid: 7364
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-05 20:55:36,665 ERROR 7371 [-/169.254.125.138/-/16ms POST /tologin] nodejs.ReferenceError: password is not defined
+    at module.exports.veriuser (/Users/yangpengcheng/Desktop/possible/app/controller/user.js:47:53)
+    at Object.callFn (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-core@4.17.3@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-core@4.17.3@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yangpengcheng/Desktop/possible/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yangpengcheng/Desktop/possible/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yangpengcheng/Desktop/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/yangpengcheng/Desktop/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yangpengcheng/Desktop/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+
+pid: 7371
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-05 23:11:03,492 ERROR 8615 [-/172.20.10.3/-/20ms POST /tologin] nodejs.ReferenceError: username is not defined
+    at module.exports.veriuser (/Users/yangpengcheng/Desktop/possible/app/controller/user.js:48:22)
+    at Object.callFn (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-core@4.17.3@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-core@4.17.3@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yangpengcheng/Desktop/possible/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yangpengcheng/Desktop/possible/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yangpengcheng/Desktop/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/yangpengcheng/Desktop/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yangpengcheng/Desktop/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+
+pid: 8615
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-05 23:20:24,244 ERROR 8961 [-/172.20.10.3/-/21ms POST /tologin] nodejs.ReferenceError: data is not defined
+    at module.exports.veriuser (/Users/yangpengcheng/Desktop/possible/app/controller/user.js:54:21)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/yangpengcheng/Desktop/possible/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/yangpengcheng/Desktop/possible/node_modules/_koa-session@5.12.3@koa-session/index.js:41:7)
+    at async bodyParser (/Users/yangpengcheng/Desktop/possible/node_modules/_koa-bodyparser@4.2.1@koa-bodyparser/index.js:86:5)
+    at async /Users/yangpengcheng/Desktop/possible/node_modules/_koa-static-cache@5.1.2@koa-static-cache/index.js:51:63
+
+pid: 8961
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-06 23:19:38,006 ERROR 1671 [-/172.20.10.3/-/27ms POST /registry] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'usercode' in 'field list'
+    at Query.Sequence._packetToError (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:308:12)
+    --------------------
+    at Pool.query (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/yangpengcheng/Desktop/possible/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/yangpengcheng/Desktop/possible/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/yangpengcheng/Desktop/possible/node_modules/co/index.js:65:19)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/co/index.js:54:5
+    sql: INSERT INTO `user`(`username`, `usercode`, `password`, `identity`, `id`) VALUES('杨鹏程', '151661000691', '7890269', 'abc123', '5mkgm6237r')
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'usercode' in 'field list'"
+sqlState: "42S22"
+index: 0
+sql: "INSERT INTO `user`(`username`, `usercode`, `password`, `identity`, `id`) VALUES('杨鹏程', '151661000691', '7890269', 'abc123', '5mkgm6237r')"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 1671
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-06 23:45:19,644 ERROR 1812 [-/172.20.10.3/-/18ms POST /tologin] nodejs.TypeError: data is not iterable
+    at module.exports.veriuser (/Users/yangpengcheng/Desktop/possible/app/controller/user.js:48:26)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/yangpengcheng/Desktop/possible/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/yangpengcheng/Desktop/possible/node_modules/_koa-session@5.12.3@koa-session/index.js:41:7)
+    at async bodyParser (/Users/yangpengcheng/Desktop/possible/node_modules/_koa-bodyparser@4.2.1@koa-bodyparser/index.js:86:5)
+    at async /Users/yangpengcheng/Desktop/possible/node_modules/_koa-static-cache@5.1.2@koa-static-cache/index.js:51:63
+
+pid: 1812
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-06 23:46:36,352 ERROR 1821 [-/172.20.10.3/-/14ms POST /tologin] nodejs.TypeError: date is not iterable
+    at module.exports.veriuser (/Users/yangpengcheng/Desktop/possible/app/controller/user.js:49:26)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/yangpengcheng/Desktop/possible/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/yangpengcheng/Desktop/possible/node_modules/_koa-session@5.12.3@koa-session/index.js:41:7)
+    at async bodyParser (/Users/yangpengcheng/Desktop/possible/node_modules/_koa-bodyparser@4.2.1@koa-bodyparser/index.js:86:5)
+    at async /Users/yangpengcheng/Desktop/possible/node_modules/_koa-static-cache@5.1.2@koa-static-cache/index.js:51:63
+
+pid: 1821
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-06 23:47:01,040 ERROR 1821 [-/172.20.10.3/-/4ms POST /tologin] nodejs.TypeError: date is not iterable
+    at module.exports.veriuser (/Users/yangpengcheng/Desktop/possible/app/controller/user.js:49:26)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/yangpengcheng/Desktop/possible/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/yangpengcheng/Desktop/possible/node_modules/_koa-session@5.12.3@koa-session/index.js:41:7)
+    at async bodyParser (/Users/yangpengcheng/Desktop/possible/node_modules/_koa-bodyparser@4.2.1@koa-bodyparser/index.js:86:5)
+    at async /Users/yangpengcheng/Desktop/possible/node_modules/_koa-static-cache@5.1.2@koa-static-cache/index.js:51:63
+
+pid: 1821
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-06 23:51:11,569 ERROR 1842 [-/172.20.10.3/-/19ms POST /tologin] nodejs.ReferenceError: pwd is not defined
+    at module.exports.veriuser (/Users/yangpengcheng/Desktop/possible/app/controller/user.js:43:21)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/yangpengcheng/Desktop/possible/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/yangpengcheng/Desktop/possible/node_modules/_koa-session@5.12.3@koa-session/index.js:41:7)
+    at async bodyParser (/Users/yangpengcheng/Desktop/possible/node_modules/_koa-bodyparser@4.2.1@koa-bodyparser/index.js:86:5)
+    at async /Users/yangpengcheng/Desktop/possible/node_modules/_koa-static-cache@5.1.2@koa-static-cache/index.js:51:63
+
+pid: 1842
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-06 23:51:21,403 ERROR 1842 [-/172.20.10.3/-/1ms POST /tologin] nodejs.ReferenceError: pwd is not defined
+    at module.exports.veriuser (/Users/yangpengcheng/Desktop/possible/app/controller/user.js:43:21)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/yangpengcheng/Desktop/possible/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/yangpengcheng/Desktop/possible/node_modules/_koa-session@5.12.3@koa-session/index.js:41:7)
+    at async bodyParser (/Users/yangpengcheng/Desktop/possible/node_modules/_koa-bodyparser@4.2.1@koa-bodyparser/index.js:86:5)
+    at async /Users/yangpengcheng/Desktop/possible/node_modules/_koa-static-cache@5.1.2@koa-static-cache/index.js:51:63
+
+pid: 1842
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-07 00:08:32,603 ERROR 1981 [-/172.20.10.3/-/15ms POST /tologin] nodejs.Error: secretOrPrivateKey must have a value
+    at Object.module.exports [as sign] (/Users/yangpengcheng/Desktop/possible/node_modules/_jsonwebtoken@8.5.1@jsonwebtoken/sign.js:107:20)
+    at module.exports.veriuser (/Users/yangpengcheng/Desktop/possible/app/controller/user.js:51:31)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/yangpengcheng/Desktop/possible/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/yangpengcheng/Desktop/possible/node_modules/_koa-session@5.12.3@koa-session/index.js:41:7)
+    at async bodyParser (/Users/yangpengcheng/Desktop/possible/node_modules/_koa-bodyparser@4.2.1@koa-bodyparser/index.js:86:5)
+
+pid: 1981
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-07 21:12:39,021 ERROR 10942 [-/169.254.36.146/-/4ms GET /getuserinfo] nodejs.ReferenceError: error is not defined
+    at module.exports.info (/Users/yangpengcheng/Desktop/possible/app/controller/user.js:75:25)
+    at Object.callFn (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-core@4.17.3@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-core@4.17.3@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yangpengcheng/Desktop/possible/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yangpengcheng/Desktop/possible/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yangpengcheng/Desktop/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/yangpengcheng/Desktop/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yangpengcheng/Desktop/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+
+pid: 10942
+hostname: YangPengChengdeMacBook-Pro.local
+

@@ -7,7 +7,11 @@ import {
     Input,
     Select,
     Option,
-    Button
+    Button,
+    Header,
+    Main,
+    Footer,
+    Aside
 
 
 } from  'element-ui'
@@ -18,3 +22,7 @@ Vue.use(Input)
 Vue.use(Select)
 Vue.use(Option)
 Vue.use(Button)
+Vue.use(Header)
+Vue.use(Main)
+Vue.use(Footer)
+Vue.use(Aside)

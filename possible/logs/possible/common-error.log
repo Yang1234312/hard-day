@@ -1,0 +1,1644 @@
+2019-12-05 08:56:57,673 ERROR 3777 [-/127.0.0.1/-/0ms GET /] nodejs.ER_NOT_SUPPORTED_AUTH_MODEError: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Handshake.Sequence._packetToError (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:308:12)
+    --------------------
+    at Protocol._enqueue (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+code: "ER_NOT_SUPPORTED_AUTH_MODE"
+errno: 1251
+sqlMessage: "Client does not support authentication protocol requested by server; consider upgrading MySQL client"
+sqlState: "08004"
+fatal: true
+name: "ER_NOT_SUPPORTED_AUTH_MODEError"
+pid: 3777
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-05 08:57:20,741 ERROR 3967 [-/127.0.0.1/-/0ms GET /] nodejs.ER_NOT_SUPPORTED_AUTH_MODEError: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Handshake.Sequence._packetToError (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:308:12)
+    --------------------
+    at Protocol._enqueue (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+code: "ER_NOT_SUPPORTED_AUTH_MODE"
+errno: 1251
+sqlMessage: "Client does not support authentication protocol requested by server; consider upgrading MySQL client"
+sqlState: "08004"
+fatal: true
+name: "ER_NOT_SUPPORTED_AUTH_MODEError"
+pid: 3967
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-05 09:01:39,295 ERROR 4185 [-/127.0.0.1/-/0ms GET /] nodejs.ER_NOT_SUPPORTED_AUTH_MODEError: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Handshake.Sequence._packetToError (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:308:12)
+    --------------------
+    at Protocol._enqueue (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+code: "ER_NOT_SUPPORTED_AUTH_MODE"
+errno: 1251
+sqlMessage: "Client does not support authentication protocol requested by server; consider upgrading MySQL client"
+sqlState: "08004"
+fatal: true
+name: "ER_NOT_SUPPORTED_AUTH_MODEError"
+pid: 4185
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-05 09:02:38,053 ERROR 4216 [-/127.0.0.1/-/0ms GET /] nodejs.ER_NOT_SUPPORTED_AUTH_MODEError: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Handshake.Sequence._packetToError (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:308:12)
+    --------------------
+    at Protocol._enqueue (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+code: "ER_NOT_SUPPORTED_AUTH_MODE"
+errno: 1251
+sqlMessage: "Client does not support authentication protocol requested by server; consider upgrading MySQL client"
+sqlState: "08004"
+fatal: true
+name: "ER_NOT_SUPPORTED_AUTH_MODEError"
+pid: 4216
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-05 09:04:42,604 ERROR 4219 [-/127.0.0.1/-/1ms GET /] nodejs.ER_NOT_SUPPORTED_AUTH_MODEError: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Handshake.Sequence._packetToError (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:308:12)
+    --------------------
+    at Protocol._enqueue (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+code: "ER_NOT_SUPPORTED_AUTH_MODE"
+errno: 1251
+sqlMessage: "Client does not support authentication protocol requested by server; consider upgrading MySQL client"
+sqlState: "08004"
+fatal: true
+name: "ER_NOT_SUPPORTED_AUTH_MODEError"
+pid: 4219
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-05 09:05:02,511 ERROR 4220 [-/127.0.0.1/-/0ms GET /] nodejs.ER_NOT_SUPPORTED_AUTH_MODEError: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Handshake.Sequence._packetToError (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:308:12)
+    --------------------
+    at Protocol._enqueue (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+code: "ER_NOT_SUPPORTED_AUTH_MODE"
+errno: 1251
+sqlMessage: "Client does not support authentication protocol requested by server; consider upgrading MySQL client"
+sqlState: "08004"
+fatal: true
+name: "ER_NOT_SUPPORTED_AUTH_MODEError"
+pid: 4220
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-05 09:06:04,771 ERROR 4228 [-/127.0.0.1/-/0ms GET /] nodejs.ER_NOT_SUPPORTED_AUTH_MODEError: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Handshake.Sequence._packetToError (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:308:12)
+    --------------------
+    at Protocol._enqueue (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+code: "ER_NOT_SUPPORTED_AUTH_MODE"
+errno: 1251
+sqlMessage: "Client does not support authentication protocol requested by server; consider upgrading MySQL client"
+sqlState: "08004"
+fatal: true
+name: "ER_NOT_SUPPORTED_AUTH_MODEError"
+pid: 4228
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-05 09:06:25,443 ERROR 4240 [-/127.0.0.1/-/0ms GET /] nodejs.ER_NOT_SUPPORTED_AUTH_MODEError: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Handshake.Sequence._packetToError (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:308:12)
+    --------------------
+    at Protocol._enqueue (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+code: "ER_NOT_SUPPORTED_AUTH_MODE"
+errno: 1251
+sqlMessage: "Client does not support authentication protocol requested by server; consider upgrading MySQL client"
+sqlState: "08004"
+fatal: true
+name: "ER_NOT_SUPPORTED_AUTH_MODEError"
+pid: 4240
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-05 09:06:29,128 ERROR 4241 [-/127.0.0.1/-/0ms GET /] nodejs.ER_NOT_SUPPORTED_AUTH_MODEError: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Handshake.Sequence._packetToError (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:308:12)
+    --------------------
+    at Protocol._enqueue (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+code: "ER_NOT_SUPPORTED_AUTH_MODE"
+errno: 1251
+sqlMessage: "Client does not support authentication protocol requested by server; consider upgrading MySQL client"
+sqlState: "08004"
+fatal: true
+name: "ER_NOT_SUPPORTED_AUTH_MODEError"
+pid: 4241
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-05 09:08:00,858 ERROR 4260 [-/127.0.0.1/-/0ms GET /] nodejs.ER_NOT_SUPPORTED_AUTH_MODEError: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Handshake.Sequence._packetToError (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:308:12)
+    --------------------
+    at Protocol._enqueue (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+code: "ER_NOT_SUPPORTED_AUTH_MODE"
+errno: 1251
+sqlMessage: "Client does not support authentication protocol requested by server; consider upgrading MySQL client"
+sqlState: "08004"
+fatal: true
+name: "ER_NOT_SUPPORTED_AUTH_MODEError"
+pid: 4260
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-05 09:08:17,004 ERROR 4274 [-/127.0.0.1/-/0ms GET /] nodejs.ER_NOT_SUPPORTED_AUTH_MODEError: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Handshake.Sequence._packetToError (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:308:12)
+    --------------------
+    at Protocol._enqueue (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+code: "ER_NOT_SUPPORTED_AUTH_MODE"
+errno: 1251
+sqlMessage: "Client does not support authentication protocol requested by server; consider upgrading MySQL client"
+sqlState: "08004"
+fatal: true
+name: "ER_NOT_SUPPORTED_AUTH_MODEError"
+pid: 4274
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-05 09:12:22,267 ERROR 4304 [-/127.0.0.1/-/0ms GET /] nodejs.ER_NOT_SUPPORTED_AUTH_MODEError: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Handshake.Sequence._packetToError (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:308:12)
+    --------------------
+    at Protocol._enqueue (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+code: "ER_NOT_SUPPORTED_AUTH_MODE"
+errno: 1251
+sqlMessage: "Client does not support authentication protocol requested by server; consider upgrading MySQL client"
+sqlState: "08004"
+fatal: true
+name: "ER_NOT_SUPPORTED_AUTH_MODEError"
+pid: 4304
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-05 09:23:51,945 ERROR 4488 [-/127.0.0.1/-/0ms GET /] nodejs.ER_ACCESS_DENIED_ERRORError: ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:308:12)
+    --------------------
+    at Protocol._enqueue (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+code: "ER_ACCESS_DENIED_ERROR"
+errno: 1045
+sqlMessage: "Access denied for user 'root'@'localhost' (using password: YES)"
+sqlState: "28000"
+fatal: true
+name: "ER_ACCESS_DENIED_ERRORError"
+pid: 4488
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-05 09:39:19,592 ERROR 4995 [-/127.0.0.1/-/0ms GET /] nodejs.ER_BAD_DB_ERRORError: ER_BAD_DB_ERROR: Unknown database '1706b'
+    at Handshake.Sequence._packetToError (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:308:12)
+    --------------------
+    at Protocol._enqueue (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+code: "ER_BAD_DB_ERROR"
+errno: 1049
+sqlMessage: "Unknown database '1706b'"
+sqlState: "42000"
+fatal: true
+name: "ER_BAD_DB_ERRORError"
+pid: 4995
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-05 10:00:42,966 ERROR 5503 nodejs.unhandledRejectionError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'valuse('zs','1234','aaa','1')' at line 1
+    at Query.Sequence._packetToError (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:308:12)
+    --------------------
+    at Pool.query (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/yangpengcheng/Desktop/possible/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/yangpengcheng/Desktop/possible/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/yangpengcheng/Desktop/possible/node_modules/co/index.js:65:19)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/co/index.js:54:5
+    sql: INSERT INTO user (username,password,id,identity) valuse('zs','1234','aaa','1')
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'valuse('zs','1234','aaa','1')' at line 1"
+sqlState: "42000"
+index: 0
+sql: "INSERT INTO user (username,password,id,identity) valuse('zs','1234','aaa','1')"
+name: "unhandledRejectionError"
+pid: 5503
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-05 10:05:20,749 ERROR 5503 nodejs.unhandledRejectionError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'valuse('zs','1234','aaa','1')' at line 1
+    at Query.Sequence._packetToError (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:308:12)
+    --------------------
+    at Pool.query (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/yangpengcheng/Desktop/possible/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/yangpengcheng/Desktop/possible/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/yangpengcheng/Desktop/possible/node_modules/co/index.js:65:19)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/co/index.js:54:5
+    sql: INSERT INTO user (username,password,id,identity) valuse('zs','1234','aaa','1')
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'valuse('zs','1234','aaa','1')' at line 1"
+sqlState: "42000"
+index: 0
+sql: "INSERT INTO user (username,password,id,identity) valuse('zs','1234','aaa','1')"
+name: "unhandledRejectionError"
+pid: 5503
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-05 10:08:14,616 ERROR 5677 nodejs.unhandledRejectionError: ER_NO_SUCH_TABLE: Table '1706b.1706b' doesn't exist
+    at Query.Sequence._packetToError (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:308:12)
+    --------------------
+    at Pool.query (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/yangpengcheng/Desktop/possible/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/yangpengcheng/Desktop/possible/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/yangpengcheng/Desktop/possible/node_modules/co/index.js:65:19)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/co/index.js:54:5
+    sql: INSERT INTO 1706b (username,password,id,identity) value ('zs','1234','aaa','1')
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table '1706b.1706b' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "INSERT INTO 1706b (username,password,id,identity) value ('zs','1234','aaa','1')"
+name: "unhandledRejectionError"
+pid: 5677
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-05 10:08:40,122 ERROR 5689 nodejs.unhandledRejectionError: ER_BAD_FIELD_ERROR: Unknown column 'username' in 'field list'
+    at Query.Sequence._packetToError (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:308:12)
+    --------------------
+    at Pool.query (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/yangpengcheng/Desktop/possible/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/yangpengcheng/Desktop/possible/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/yangpengcheng/Desktop/possible/node_modules/co/index.js:65:19)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/co/index.js:54:5
+    sql: INSERT INTO user (username,password,id,identity) value ('zs','1234','aaa','1')
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'username' in 'field list'"
+sqlState: "42S22"
+index: 0
+sql: "INSERT INTO user (username,password,id,identity) value ('zs','1234','aaa','1')"
+name: "unhandledRejectionError"
+pid: 5689
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-05 10:10:19,246 ERROR 5740 nodejs.unhandledRejectionError: ER_BAD_FIELD_ERROR: Unknown column 'username' in 'field list'
+    at Query.Sequence._packetToError (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:308:12)
+    --------------------
+    at Pool.query (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/yangpengcheng/Desktop/possible/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/yangpengcheng/Desktop/possible/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/yangpengcheng/Desktop/possible/node_modules/co/index.js:65:19)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/co/index.js:54:5
+    sql: insert into user (username,password,id,identity) value ('zs','1234','aaa','1')
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'username' in 'field list'"
+sqlState: "42S22"
+index: 0
+sql: "insert into user (username,password,id,identity) value ('zs','1234','aaa','1')"
+name: "unhandledRejectionError"
+pid: 5740
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-05 10:13:59,968 ERROR 5787 nodejs.unhandledRejectionError: ER_DATA_TOO_LONG: Data too long for column 'id' at row 1
+    at Query.Sequence._packetToError (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:308:12)
+    --------------------
+    at Pool.query (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/yangpengcheng/Desktop/possible/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/yangpengcheng/Desktop/possible/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/yangpengcheng/Desktop/possible/node_modules/co/index.js:65:19)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/co/index.js:54:5
+    sql: insert into user (usrname,password,id,identity) value ('zs','1234','aaa','1')
+code: "ER_DATA_TOO_LONG"
+errno: 1406
+sqlMessage: "Data too long for column 'id' at row 1"
+sqlState: "22001"
+index: 0
+sql: "insert into user (usrname,password,id,identity) value ('zs','1234','aaa','1')"
+name: "unhandledRejectionError"
+pid: 5787
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-05 10:15:11,182 ERROR 5808 nodejs.unhandledRejectionError: ER_DATA_TOO_LONG: Data too long for column 'id' at row 1
+    at Query.Sequence._packetToError (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:308:12)
+    --------------------
+    at Pool.query (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/yangpengcheng/Desktop/possible/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/yangpengcheng/Desktop/possible/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/yangpengcheng/Desktop/possible/node_modules/co/index.js:65:19)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/co/index.js:54:5
+    sql: insert into user (usrname,password,id,identity) value ('zs','1234','aaa','1')
+code: "ER_DATA_TOO_LONG"
+errno: 1406
+sqlMessage: "Data too long for column 'id' at row 1"
+sqlState: "22001"
+index: 0
+sql: "insert into user (usrname,password,id,identity) value ('zs','1234','aaa','1')"
+name: "unhandledRejectionError"
+pid: 5808
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-05 10:15:30,862 ERROR 5838 nodejs.unhandledRejectionError: ER_DATA_TOO_LONG: Data too long for column 'id' at row 1
+    at Query.Sequence._packetToError (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:308:12)
+    --------------------
+    at Pool.query (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/yangpengcheng/Desktop/possible/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/yangpengcheng/Desktop/possible/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/yangpengcheng/Desktop/possible/node_modules/co/index.js:65:19)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/co/index.js:54:5
+    sql: insert into user (usrname,password,id,identity) value ('zs','1','aaa','1')
+code: "ER_DATA_TOO_LONG"
+errno: 1406
+sqlMessage: "Data too long for column 'id' at row 1"
+sqlState: "22001"
+index: 0
+sql: "insert into user (usrname,password,id,identity) value ('zs','1','aaa','1')"
+name: "unhandledRejectionError"
+pid: 5838
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-05 10:15:41,685 ERROR 5843 nodejs.unhandledRejectionError: ER_DATA_TOO_LONG: Data too long for column 'id' at row 1
+    at Query.Sequence._packetToError (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:308:12)
+    --------------------
+    at Pool.query (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/yangpengcheng/Desktop/possible/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/yangpengcheng/Desktop/possible/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/yangpengcheng/Desktop/possible/node_modules/co/index.js:65:19)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/co/index.js:54:5
+    sql: insert into user (usrname,password,id,identity) value ('zs','hj','aaa','1')
+code: "ER_DATA_TOO_LONG"
+errno: 1406
+sqlMessage: "Data too long for column 'id' at row 1"
+sqlState: "22001"
+index: 0
+sql: "insert into user (usrname,password,id,identity) value ('zs','hj','aaa','1')"
+name: "unhandledRejectionError"
+pid: 5843
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-05 10:15:58,982 ERROR 5854 nodejs.unhandledRejectionError: ER_DATA_TOO_LONG: Data too long for column 'id' at row 1
+    at Query.Sequence._packetToError (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:308:12)
+    --------------------
+    at Pool.query (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/yangpengcheng/Desktop/possible/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/yangpengcheng/Desktop/possible/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/yangpengcheng/Desktop/possible/node_modules/co/index.js:65:19)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/co/index.js:54:5
+    sql: insert into user (usrname,password,id,identity) value ('zs','1234','a','1')
+code: "ER_DATA_TOO_LONG"
+errno: 1406
+sqlMessage: "Data too long for column 'id' at row 1"
+sqlState: "22001"
+index: 0
+sql: "insert into user (usrname,password,id,identity) value ('zs','1234','a','1')"
+name: "unhandledRejectionError"
+pid: 5854
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-05 10:16:25,989 ERROR 5869 nodejs.unhandledRejectionError: ER_DATA_TOO_LONG: Data too long for column 'id' at row 1
+    at Query.Sequence._packetToError (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:308:12)
+    --------------------
+    at Pool.query (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/yangpengcheng/Desktop/possible/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/yangpengcheng/Desktop/possible/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/yangpengcheng/Desktop/possible/node_modules/co/index.js:65:19)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/co/index.js:54:5
+    sql: insert into user (usrname,password,id,identity) value ('zs','1234','a','1')
+code: "ER_DATA_TOO_LONG"
+errno: 1406
+sqlMessage: "Data too long for column 'id' at row 1"
+sqlState: "22001"
+index: 0
+sql: "insert into user (usrname,password,id,identity) value ('zs','1234','a','1')"
+name: "unhandledRejectionError"
+pid: 5869
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-05 10:16:41,180 ERROR 5884 nodejs.unhandledRejectionError: ER_DATA_TOO_LONG: Data too long for column 'id' at row 1
+    at Query.Sequence._packetToError (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:308:12)
+    --------------------
+    at Pool.query (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/yangpengcheng/Desktop/possible/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/yangpengcheng/Desktop/possible/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/yangpengcheng/Desktop/possible/node_modules/co/index.js:65:19)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/co/index.js:54:5
+    sql: insert into user (usrname,password,id,identity) value ('zs','1234','1','1')
+code: "ER_DATA_TOO_LONG"
+errno: 1406
+sqlMessage: "Data too long for column 'id' at row 1"
+sqlState: "22001"
+index: 0
+sql: "insert into user (usrname,password,id,identity) value ('zs','1234','1','1')"
+name: "unhandledRejectionError"
+pid: 5884
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-05 12:03:08,081 ERROR 1536 nodejs.ClusterClientNoResponseError: client no response in 61164ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yangpengcheng/Desktop/possible/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1536
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-05 12:20:00,891 ERROR 1536 nodejs.ClusterClientNoResponseError: client no response in 872554ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yangpengcheng/Desktop/possible/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1536
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-05 12:26:42,739 ERROR 1536 nodejs.ClusterClientNoResponseError: client no response in 381829ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yangpengcheng/Desktop/possible/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1536
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-05 12:32:38,148 ERROR 1536 nodejs.ClusterClientNoResponseError: client no response in 315383ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yangpengcheng/Desktop/possible/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1536
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-05 12:35:02,573 ERROR 1536 nodejs.ClusterClientNoResponseError: client no response in 124403ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yangpengcheng/Desktop/possible/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1536
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-05 12:43:50,761 ERROR 1536 nodejs.ClusterClientNoResponseError: client no response in 488172ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yangpengcheng/Desktop/possible/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1536
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-05 12:58:42,615 ERROR 1536 nodejs.ClusterClientNoResponseError: client no response in 871829ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yangpengcheng/Desktop/possible/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1536
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-05 13:00:44,620 ERROR 1536 nodejs.ClusterClientNoResponseError: client no response in 81984ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yangpengcheng/Desktop/possible/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1536
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-05 13:08:36,914 ERROR 1536 nodejs.ClusterClientNoResponseError: client no response in 432271ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yangpengcheng/Desktop/possible/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1536
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-05 13:23:30,094 ERROR 1536 nodejs.ClusterClientNoResponseError: client no response in 853154ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yangpengcheng/Desktop/possible/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1536
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-05 13:26:10,177 ERROR 1536 nodejs.ClusterClientNoResponseError: client no response in 120057ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yangpengcheng/Desktop/possible/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1536
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-05 18:34:40,048 ERROR 5848 nodejs.ClusterClientNoResponseError: client no response in 135480ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yangpengcheng/Desktop/possible/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 5848
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-05 19:37:09,310 ERROR 6515 [-/169.254.125.138/-/15ms POST /registry] nodejs.ReferenceError: id is not defined
+    at module.exports.index (/Users/yangpengcheng/Desktop/possible/app/controller/user.js:22:86)
+    at Object.callFn (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-core@4.17.3@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-core@4.17.3@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yangpengcheng/Desktop/possible/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yangpengcheng/Desktop/possible/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yangpengcheng/Desktop/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/yangpengcheng/Desktop/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yangpengcheng/Desktop/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+
+pid: 6515
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-05 19:40:34,931 ERROR 6542 [-/169.254.125.138/-/12ms POST /registry] nodejs.ReferenceError: id is not defined
+    at module.exports.index (/Users/yangpengcheng/Desktop/possible/app/controller/user.js:23:86)
+    at Object.callFn (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-core@4.17.3@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-core@4.17.3@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yangpengcheng/Desktop/possible/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yangpengcheng/Desktop/possible/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yangpengcheng/Desktop/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/yangpengcheng/Desktop/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yangpengcheng/Desktop/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+
+pid: 6542
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-05 19:42:33,445 ERROR 6567 nodejs.unhandledRejectionError: ER_BAD_FIELD_ERROR: Unknown column 'b' in 'field list'
+    at Query.Sequence._packetToError (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:308:12)
+    --------------------
+    at Pool.query (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/yangpengcheng/Desktop/possible/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/yangpengcheng/Desktop/possible/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/yangpengcheng/Desktop/possible/node_modules/co/index.js:65:19)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/co/index.js:54:5
+    sql: insert into user (username,password,identity,id) value ("15945272132","31231231231","a1b2c3",b)
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'b' in 'field list'"
+sqlState: "42S22"
+index: 0
+sql: "insert into user (username,password,identity,id) value (\"15945272132\",\"31231231231\",\"a1b2c3\",b)"
+name: "unhandledRejectionError"
+pid: 6567
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-05 19:45:55,042 ERROR 6599 nodejs.unhandledRejectionError: ER_BAD_FIELD_ERROR: Unknown column 'm' in 'field list'
+    at Query.Sequence._packetToError (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:308:12)
+    --------------------
+    at Pool.query (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/yangpengcheng/Desktop/possible/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/yangpengcheng/Desktop/possible/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/yangpengcheng/Desktop/possible/node_modules/co/index.js:65:19)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/co/index.js:54:5
+    sql: insert into user (username,password,identity,id) value ("15945272132","3123123123","123abc",m)
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'm' in 'field list'"
+sqlState: "42S22"
+index: 0
+sql: "insert into user (username,password,identity,id) value (\"15945272132\",\"3123123123\",\"123abc\",m)"
+name: "unhandledRejectionError"
+pid: 6599
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-05 19:47:42,301 ERROR 6599 nodejs.unhandledRejectionError: ER_BAD_FIELD_ERROR: Unknown column 'w' in 'field list'
+    at Query.Sequence._packetToError (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:308:12)
+    --------------------
+    at Pool.query (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/yangpengcheng/Desktop/possible/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/yangpengcheng/Desktop/possible/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/yangpengcheng/Desktop/possible/node_modules/co/index.js:65:19)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/co/index.js:54:5
+    sql: insert into user (username,password,identity,id) value ("15945272132","312312312","123abc",w)
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'w' in 'field list'"
+sqlState: "42S22"
+index: 0
+sql: "insert into user (username,password,identity,id) value (\"15945272132\",\"312312312\",\"123abc\",w)"
+name: "unhandledRejectionError"
+pid: 6599
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-05 19:48:38,781 ERROR 6616 nodejs.unhandledRejectionError: ER_BAD_FIELD_ERROR: Unknown column '0t6pph0lbo' in 'field list'
+    at Query.Sequence._packetToError (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:308:12)
+    --------------------
+    at Pool.query (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/yangpengcheng/Desktop/possible/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/yangpengcheng/Desktop/possible/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/yangpengcheng/Desktop/possible/node_modules/co/index.js:65:19)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/co/index.js:54:5
+    sql: insert into user (username,password,identity,id) value ("15945272132","312312312","123abc",0t6pph0lbo)
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column '0t6pph0lbo' in 'field list'"
+sqlState: "42S22"
+index: 0
+sql: "insert into user (username,password,identity,id) value (\"15945272132\",\"312312312\",\"123abc\",0t6pph0lbo)"
+name: "unhandledRejectionError"
+pid: 6616
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-05 19:52:28,197 ERROR 6624 nodejs.unhandledRejectionError: ER_BAD_FIELD_ERROR: Unknown column '8qmty646v0' in 'field list'
+    at Query.Sequence._packetToError (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:308:12)
+    --------------------
+    at Pool.query (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/yangpengcheng/Desktop/possible/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/yangpengcheng/Desktop/possible/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/yangpengcheng/Desktop/possible/node_modules/co/index.js:65:19)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/co/index.js:54:5
+    sql: INSERT INTO  user (username,password,identity,id) values ("15945272132","312312312","123abc",8qmty646v0)
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column '8qmty646v0' in 'field list'"
+sqlState: "42S22"
+index: 0
+sql: "INSERT INTO  user (username,password,identity,id) values (\"15945272132\",\"312312312\",\"123abc\",8qmty646v0)"
+name: "unhandledRejectionError"
+pid: 6624
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-05 20:54:18,405 ERROR 7364 [-/169.254.125.138/-/19ms POST /tologin] nodejs.ReferenceError: username is not defined
+    at module.exports.veriuser (/Users/yangpengcheng/Desktop/possible/app/controller/user.js:47:55)
+    at Object.callFn (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-core@4.17.3@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-core@4.17.3@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yangpengcheng/Desktop/possible/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yangpengcheng/Desktop/possible/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yangpengcheng/Desktop/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/yangpengcheng/Desktop/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yangpengcheng/Desktop/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+
+pid: 7364
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-05 20:54:34,358 ERROR 7364 [-/169.254.125.138/-/1ms POST /tologin] nodejs.ReferenceError: username is not defined
+    at module.exports.veriuser (/Users/yangpengcheng/Desktop/possible/app/controller/user.js:47:55)
+    at Object.callFn (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-core@4.17.3@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-core@4.17.3@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yangpengcheng/Desktop/possible/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yangpengcheng/Desktop/possible/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yangpengcheng/Desktop/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/yangpengcheng/Desktop/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yangpengcheng/Desktop/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+
+pid: 7364
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-05 20:55:36,664 ERROR 7371 [-/169.254.125.138/-/16ms POST /tologin] nodejs.ReferenceError: password is not defined
+    at module.exports.veriuser (/Users/yangpengcheng/Desktop/possible/app/controller/user.js:47:53)
+    at Object.callFn (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-core@4.17.3@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-core@4.17.3@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yangpengcheng/Desktop/possible/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yangpengcheng/Desktop/possible/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yangpengcheng/Desktop/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/yangpengcheng/Desktop/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yangpengcheng/Desktop/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+
+pid: 7371
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-05 21:23:40,419 ERROR 7293 nodejs.ClusterClientNoResponseError: client no response in 211783ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yangpengcheng/Desktop/possible/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 7293
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-05 21:37:44,785 ERROR 7293 nodejs.ClusterClientNoResponseError: client no response in 844361ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yangpengcheng/Desktop/possible/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 7293
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-05 21:45:22,274 ERROR 7293 nodejs.ClusterClientNoResponseError: client no response in 254205ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yangpengcheng/Desktop/possible/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 7293
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-05 21:57:39,872 ERROR 7293 nodejs.ClusterClientNoResponseError: client no response in 93442ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yangpengcheng/Desktop/possible/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 7293
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-05 22:44:15,576 ERROR 7293 nodejs.ClusterClientNoResponseError: client no response in 1801656ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yangpengcheng/Desktop/possible/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 7293
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-05 23:03:53,008 ERROR 7293 nodejs.ClusterClientNoResponseError: client no response in 1177428ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yangpengcheng/Desktop/possible/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 7293
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-05 23:11:03,484 ERROR 8615 [-/172.20.10.3/-/20ms POST /tologin] nodejs.ReferenceError: username is not defined
+    at module.exports.veriuser (/Users/yangpengcheng/Desktop/possible/app/controller/user.js:48:22)
+    at Object.callFn (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-core@4.17.3@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-core@4.17.3@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yangpengcheng/Desktop/possible/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yangpengcheng/Desktop/possible/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yangpengcheng/Desktop/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/yangpengcheng/Desktop/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yangpengcheng/Desktop/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+
+pid: 8615
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-05 23:20:24,239 ERROR 8961 [-/172.20.10.3/-/21ms POST /tologin] nodejs.ReferenceError: data is not defined
+    at module.exports.veriuser (/Users/yangpengcheng/Desktop/possible/app/controller/user.js:54:21)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/yangpengcheng/Desktop/possible/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/yangpengcheng/Desktop/possible/node_modules/_koa-session@5.12.3@koa-session/index.js:41:7)
+    at async bodyParser (/Users/yangpengcheng/Desktop/possible/node_modules/_koa-bodyparser@4.2.1@koa-bodyparser/index.js:86:5)
+    at async /Users/yangpengcheng/Desktop/possible/node_modules/_koa-static-cache@5.1.2@koa-static-cache/index.js:51:63
+
+pid: 8961
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-06 17:26:55,112 ERROR 1234 nodejs.ClusterClientNoResponseError: client no response in 1533680ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yangpengcheng/Desktop/possible/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1234
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-06 23:19:38,006 ERROR 1671 [-/172.20.10.3/-/27ms POST /registry] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'usercode' in 'field list'
+    at Query.Sequence._packetToError (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:308:12)
+    --------------------
+    at Pool.query (/Users/yangpengcheng/Desktop/possible/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/yangpengcheng/Desktop/possible/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/yangpengcheng/Desktop/possible/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/yangpengcheng/Desktop/possible/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/yangpengcheng/Desktop/possible/node_modules/co/index.js:65:19)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/co/index.js:54:5
+    sql: INSERT INTO `user`(`username`, `usercode`, `password`, `identity`, `id`) VALUES('杨鹏程', '151661000691', '7890269', 'abc123', '5mkgm6237r')
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'usercode' in 'field list'"
+sqlState: "42S22"
+index: 0
+sql: "INSERT INTO `user`(`username`, `usercode`, `password`, `identity`, `id`) VALUES('杨鹏程', '151661000691', '7890269', 'abc123', '5mkgm6237r')"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 1671
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-06 23:45:19,640 ERROR 1812 [-/172.20.10.3/-/18ms POST /tologin] nodejs.TypeError: data is not iterable
+    at module.exports.veriuser (/Users/yangpengcheng/Desktop/possible/app/controller/user.js:48:26)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/yangpengcheng/Desktop/possible/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/yangpengcheng/Desktop/possible/node_modules/_koa-session@5.12.3@koa-session/index.js:41:7)
+    at async bodyParser (/Users/yangpengcheng/Desktop/possible/node_modules/_koa-bodyparser@4.2.1@koa-bodyparser/index.js:86:5)
+    at async /Users/yangpengcheng/Desktop/possible/node_modules/_koa-static-cache@5.1.2@koa-static-cache/index.js:51:63
+
+pid: 1812
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-06 23:46:36,348 ERROR 1821 [-/172.20.10.3/-/14ms POST /tologin] nodejs.TypeError: date is not iterable
+    at module.exports.veriuser (/Users/yangpengcheng/Desktop/possible/app/controller/user.js:49:26)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/yangpengcheng/Desktop/possible/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/yangpengcheng/Desktop/possible/node_modules/_koa-session@5.12.3@koa-session/index.js:41:7)
+    at async bodyParser (/Users/yangpengcheng/Desktop/possible/node_modules/_koa-bodyparser@4.2.1@koa-bodyparser/index.js:86:5)
+    at async /Users/yangpengcheng/Desktop/possible/node_modules/_koa-static-cache@5.1.2@koa-static-cache/index.js:51:63
+
+pid: 1821
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-06 23:47:01,035 ERROR 1821 [-/172.20.10.3/-/4ms POST /tologin] nodejs.TypeError: date is not iterable
+    at module.exports.veriuser (/Users/yangpengcheng/Desktop/possible/app/controller/user.js:49:26)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/yangpengcheng/Desktop/possible/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/yangpengcheng/Desktop/possible/node_modules/_koa-session@5.12.3@koa-session/index.js:41:7)
+    at async bodyParser (/Users/yangpengcheng/Desktop/possible/node_modules/_koa-bodyparser@4.2.1@koa-bodyparser/index.js:86:5)
+    at async /Users/yangpengcheng/Desktop/possible/node_modules/_koa-static-cache@5.1.2@koa-static-cache/index.js:51:63
+
+pid: 1821
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-06 23:51:11,569 ERROR 1842 [-/172.20.10.3/-/19ms POST /tologin] nodejs.ReferenceError: pwd is not defined
+    at module.exports.veriuser (/Users/yangpengcheng/Desktop/possible/app/controller/user.js:43:21)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/yangpengcheng/Desktop/possible/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/yangpengcheng/Desktop/possible/node_modules/_koa-session@5.12.3@koa-session/index.js:41:7)
+    at async bodyParser (/Users/yangpengcheng/Desktop/possible/node_modules/_koa-bodyparser@4.2.1@koa-bodyparser/index.js:86:5)
+    at async /Users/yangpengcheng/Desktop/possible/node_modules/_koa-static-cache@5.1.2@koa-static-cache/index.js:51:63
+
+pid: 1842
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-06 23:51:21,402 ERROR 1842 [-/172.20.10.3/-/1ms POST /tologin] nodejs.ReferenceError: pwd is not defined
+    at module.exports.veriuser (/Users/yangpengcheng/Desktop/possible/app/controller/user.js:43:21)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/yangpengcheng/Desktop/possible/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/yangpengcheng/Desktop/possible/node_modules/_koa-session@5.12.3@koa-session/index.js:41:7)
+    at async bodyParser (/Users/yangpengcheng/Desktop/possible/node_modules/_koa-bodyparser@4.2.1@koa-bodyparser/index.js:86:5)
+    at async /Users/yangpengcheng/Desktop/possible/node_modules/_koa-static-cache@5.1.2@koa-static-cache/index.js:51:63
+
+pid: 1842
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-07 00:08:32,602 ERROR 1981 [-/172.20.10.3/-/15ms POST /tologin] nodejs.Error: secretOrPrivateKey must have a value
+    at Object.module.exports [as sign] (/Users/yangpengcheng/Desktop/possible/node_modules/_jsonwebtoken@8.5.1@jsonwebtoken/sign.js:107:20)
+    at module.exports.veriuser (/Users/yangpengcheng/Desktop/possible/app/controller/user.js:51:31)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/yangpengcheng/Desktop/possible/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/yangpengcheng/Desktop/possible/node_modules/_koa-session@5.12.3@koa-session/index.js:41:7)
+    at async bodyParser (/Users/yangpengcheng/Desktop/possible/node_modules/_koa-bodyparser@4.2.1@koa-bodyparser/index.js:86:5)
+
+pid: 1981
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-07 02:38:36,050 ERROR 1980 nodejs.ClusterClientNoResponseError: client no response in 7210850ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yangpengcheng/Desktop/possible/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1980
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-07 04:39:05,158 ERROR 1980 nodejs.ClusterClientNoResponseError: client no response in 7189077ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yangpengcheng/Desktop/possible/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1980
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-07 05:38:52,061 ERROR 1980 nodejs.ClusterClientNoResponseError: client no response in 3121356ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yangpengcheng/Desktop/possible/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1980
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-07 06:38:50,824 ERROR 1980 nodejs.ClusterClientNoResponseError: client no response in 79365ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yangpengcheng/Desktop/possible/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1980
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-07 09:23:21,580 ERROR 1980 nodejs.ClusterClientNoResponseError: client no response in 897879ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yangpengcheng/Desktop/possible/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1980
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-07 09:49:04,836 ERROR 1980 nodejs.ClusterClientNoResponseError: client no response in 1542505ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yangpengcheng/Desktop/possible/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1980
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-07 10:00:51,316 ERROR 1980 nodejs.ClusterClientNoResponseError: client no response in 226767ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yangpengcheng/Desktop/possible/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1980
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-07 12:41:05,227 ERROR 1980 nodejs.ClusterClientNoResponseError: client no response in 2392041ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yangpengcheng/Desktop/possible/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1980
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-07 12:56:15,566 ERROR 1980 nodejs.ClusterClientNoResponseError: client no response in 870304ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yangpengcheng/Desktop/possible/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1980
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-07 13:11:16,637 ERROR 1980 nodejs.ClusterClientNoResponseError: client no response in 841048ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yangpengcheng/Desktop/possible/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1980
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-07 13:26:10,492 ERROR 1980 nodejs.ClusterClientNoResponseError: client no response in 853847ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yangpengcheng/Desktop/possible/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1980
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-07 13:41:21,890 ERROR 1980 nodejs.ClusterClientNoResponseError: client no response in 871378ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yangpengcheng/Desktop/possible/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1980
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-07 13:56:14,492 ERROR 1980 nodejs.ClusterClientNoResponseError: client no response in 872596ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yangpengcheng/Desktop/possible/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1980
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-07 14:11:25,858 ERROR 1980 nodejs.ClusterClientNoResponseError: client no response in 870597ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yangpengcheng/Desktop/possible/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1980
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-07 15:17:33,097 ERROR 1980 nodejs.ClusterClientNoResponseError: client no response in 3927222ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yangpengcheng/Desktop/possible/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1980
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-07 17:11:28,250 ERROR 1980 nodejs.ClusterClientNoResponseError: client no response in 6774996ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yangpengcheng/Desktop/possible/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1980
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-07 18:11:19,304 ERROR 1980 nodejs.ClusterClientNoResponseError: client no response in 3551039ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yangpengcheng/Desktop/possible/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1980
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-07 18:34:05,433 ERROR 1980 nodejs.ClusterClientNoResponseError: client no response in 1326106ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yangpengcheng/Desktop/possible/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1980
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-07 18:42:11,629 ERROR 1980 nodejs.ClusterClientNoResponseError: client no response in 426168ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yangpengcheng/Desktop/possible/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1980
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-07 18:43:57,829 ERROR 1980 nodejs.ClusterClientNoResponseError: client no response in 66187ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yangpengcheng/Desktop/possible/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1980
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-07 18:47:14,047 ERROR 1980 nodejs.ClusterClientNoResponseError: client no response in 156195ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yangpengcheng/Desktop/possible/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1980
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-07 19:03:40,184 ERROR 1980 nodejs.ClusterClientNoResponseError: client no response in 966124ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yangpengcheng/Desktop/possible/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1980
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-07 19:06:11,389 ERROR 1980 nodejs.ClusterClientNoResponseError: client no response in 111189ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yangpengcheng/Desktop/possible/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1980
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-07 19:12:07,568 ERROR 1980 nodejs.ClusterClientNoResponseError: client no response in 336159ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yangpengcheng/Desktop/possible/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1980
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-07 19:27:23,724 ERROR 1980 nodejs.ClusterClientNoResponseError: client no response in 876141ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yangpengcheng/Desktop/possible/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1980
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-07 19:30:19,903 ERROR 1980 nodejs.ClusterClientNoResponseError: client no response in 156165ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yangpengcheng/Desktop/possible/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1980
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-07 19:32:51,109 ERROR 1980 nodejs.ClusterClientNoResponseError: client no response in 111188ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yangpengcheng/Desktop/possible/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1980
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-07 19:35:22,312 ERROR 1980 nodejs.ClusterClientNoResponseError: client no response in 111181ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yangpengcheng/Desktop/possible/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1980
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-07 19:44:38,514 ERROR 1980 nodejs.ClusterClientNoResponseError: client no response in 516184ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yangpengcheng/Desktop/possible/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1980
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-07 19:47:09,735 ERROR 1980 nodejs.ClusterClientNoResponseError: client no response in 111203ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yangpengcheng/Desktop/possible/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1980
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-07 21:12:39,019 ERROR 10942 [-/169.254.36.146/-/4ms GET /getuserinfo] nodejs.ReferenceError: error is not defined
+    at module.exports.info (/Users/yangpengcheng/Desktop/possible/app/controller/user.js:75:25)
+    at Object.callFn (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-core@4.17.3@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-core@4.17.3@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yangpengcheng/Desktop/possible/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yangpengcheng/Desktop/possible/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yangpengcheng/Desktop/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/yangpengcheng/Desktop/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yangpengcheng/Desktop/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+
+pid: 10942
+hostname: YangPengChengdeMacBook-Pro.local
+

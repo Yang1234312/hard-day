@@ -1,7 +1,7 @@
 <template>
   <el-container>
       <el-form>
-          <el-form-item label="手机号">
+          <el-form-item label="用户名">
               <el-input v-model="usermessage.username">
 
               </el-input>
@@ -9,15 +9,7 @@
            <el-form-item label="密码">
               <el-input v-model="usermessage.password"></el-input>
           </el-form-item>
-           <el-form-item label="身份">
-              <el-select placeholder="请选择你的身份" v-model="usermessage.identity">
-                  <el-option v-for="item in  options" :key="item.id"   :value="item.id" :label="item.title">
-                      {{item.title}}
-
-                  </el-option>
-
-              </el-select>
-          </el-form-item>
+         
           <el-form-item>
               <el-button @click="submit">登陆</el-button>
 
@@ -28,7 +20,8 @@
 </template>
 
 <script>
-import { getIdentity,Verification} from "@/api/registry.js"
+import { getIdentity}  from "@/api/registry.js"
+import {Verification} from "@/api/login.js"
 export default {
     data(){
         return {
@@ -54,7 +47,10 @@ export default {
             Verification(this.usermessage).then(res=>{
                 console.log(res.data);
                 if(res.data.code==1){
+                    window.localStorage.setItem('token',res.data.data.token)
                     this.$router.push('/home')
+                }else{
+                    alert(res.data.msg)
                 }
             })
             

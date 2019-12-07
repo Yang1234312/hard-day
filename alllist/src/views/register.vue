@@ -1,8 +1,13 @@
 <template>
 <el-container>
 <el-form :model="userinfo" :rules="userRule" ref="myform">
-    <el-form-item label="手机号"  prop="username">
+    <el-form-item label="姓名"  prop="username">
         <el-input v-model="userinfo.username">
+            
+        </el-input>
+    </el-form-item>
+     <el-form-item label="学号"  prop="usercode" v-if="userinfo.identity==='abc123'">
+        <el-input v-model="userinfo.usercode">
             
         </el-input>
     </el-form-item>
@@ -38,6 +43,7 @@ export default {
         return{
             userinfo:{
                 username:'',
+                usercode:'',
             password:'',
             identity:'' 
             },
@@ -48,15 +54,19 @@ export default {
                 username:[
                     {
                         required:true,
-                        message:'请输入手机号',
+                        message:'请输入姓名',
                         trgger:'change'
 
-                    },{
-                        min:11,
-                        max:11,
-                        message:"手机格式不对",
+                    },
+                ],
+                usercode:[
+                    {
+                        required:true,
+                        message:'请输入学号',
                         trgger:'change'
-                    }
+
+                    },
+
                 ],
                 password:[
                     {
@@ -89,6 +99,7 @@ export default {
         getIdentity().then(res=>{
             console.log(res.data.data);
             this.options=res.data.data
+            this.userinfo.identity=this.options[2].id
         })
 
     },
