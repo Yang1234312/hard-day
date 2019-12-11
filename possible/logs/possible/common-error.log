@@ -1642,3 +1642,209 @@ hostname: YangPengChengdeMacBook-Pro.local
 pid: 10942
 hostname: YangPengChengdeMacBook-Pro.local
 
+2019-12-09 20:01:09,131 ERROR 2102 [-/169.254.14.240/-/4ms GET /getuserinfo] nodejs.ReferenceError: error is not defined
+    at module.exports.info (/Users/yangpengcheng/Desktop/possible/app/controller/user.js:75:25)
+    at Object.callFn (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-core@4.17.3@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yangpengcheng/Desktop/possible/node_modules/_egg-core@4.17.3@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yangpengcheng/Desktop/possible/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yangpengcheng/Desktop/possible/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yangpengcheng/Desktop/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/yangpengcheng/Desktop/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yangpengcheng/Desktop/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/yangpengcheng/Desktop/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+
+pid: 2102
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-09 21:01:46,136 ERROR 2101 nodejs.ClusterClientNoResponseError: client no response in 60440ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yangpengcheng/Desktop/possible/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 2101
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-09 21:04:49,610 ERROR 2101 nodejs.ClusterClientNoResponseError: client no response in 163444ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yangpengcheng/Desktop/possible/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 2101
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-09 22:37:37,821 ERROR 2101 nodejs.ClusterClientNoResponseError: client no response in 659843ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yangpengcheng/Desktop/possible/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 2101
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-10 09:56:07,469 ERROR 4765 [-/192.168.0.129/-/1ms GET /getuserinfo] nodejs.ReferenceError: error is not defined
+    at module.exports.info (/Users/yangpengcheng/Desktop/node message/possible/app/controller/user.js:75:25)
+    at Object.callFn (/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-core@4.17.3@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-core@4.17.3@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yangpengcheng/Desktop/node message/possible/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yangpengcheng/Desktop/node message/possible/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yangpengcheng/Desktop/node message/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/yangpengcheng/Desktop/node message/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/yangpengcheng/Desktop/node message/possible/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yangpengcheng/Desktop/node message/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/yangpengcheng/Desktop/node message/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+
+pid: 4765
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-10 09:57:57,773 ERROR 4765 [-/192.168.0.129/-/1ms GET /getuserinfo] nodejs.ReferenceError: error is not defined
+    at module.exports.info (/Users/yangpengcheng/Desktop/node message/possible/app/controller/user.js:75:25)
+    at Object.callFn (/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-core@4.17.3@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-core@4.17.3@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yangpengcheng/Desktop/node message/possible/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yangpengcheng/Desktop/node message/possible/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yangpengcheng/Desktop/node message/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/yangpengcheng/Desktop/node message/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/yangpengcheng/Desktop/node message/possible/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yangpengcheng/Desktop/node message/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/yangpengcheng/Desktop/node message/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+
+pid: 4765
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-10 10:10:55,010 ERROR 4765 [-/192.168.0.129/-/1ms GET /getuserinfo] nodejs.ReferenceError: error is not defined
+    at module.exports.info (/Users/yangpengcheng/Desktop/node message/possible/app/controller/user.js:75:25)
+    at Object.callFn (/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-core@4.17.3@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-core@4.17.3@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yangpengcheng/Desktop/node message/possible/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yangpengcheng/Desktop/node message/possible/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yangpengcheng/Desktop/node message/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/yangpengcheng/Desktop/node message/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/yangpengcheng/Desktop/node message/possible/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yangpengcheng/Desktop/node message/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/yangpengcheng/Desktop/node message/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+
+pid: 4765
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-10 10:14:12,971 ERROR 4765 [-/192.168.0.129/-/1ms GET /getuserinfo] nodejs.ReferenceError: error is not defined
+    at module.exports.info (/Users/yangpengcheng/Desktop/node message/possible/app/controller/user.js:75:25)
+    at Object.callFn (/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-core@4.17.3@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-core@4.17.3@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yangpengcheng/Desktop/node message/possible/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yangpengcheng/Desktop/node message/possible/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yangpengcheng/Desktop/node message/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/yangpengcheng/Desktop/node message/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/yangpengcheng/Desktop/node message/possible/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yangpengcheng/Desktop/node message/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/yangpengcheng/Desktop/node message/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+
+pid: 4765
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-10 10:15:54,839 ERROR 4765 [-/192.168.0.129/-/1ms GET /getuserinfo] nodejs.ReferenceError: error is not defined
+    at module.exports.info (/Users/yangpengcheng/Desktop/node message/possible/app/controller/user.js:75:25)
+    at Object.callFn (/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-core@4.17.3@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-core@4.17.3@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yangpengcheng/Desktop/node message/possible/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yangpengcheng/Desktop/node message/possible/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yangpengcheng/Desktop/node message/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/yangpengcheng/Desktop/node message/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/yangpengcheng/Desktop/node message/possible/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yangpengcheng/Desktop/node message/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/yangpengcheng/Desktop/node message/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+
+pid: 4765
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-10 11:52:31,594 ERROR 4765 [-/192.168.0.129/-/0ms GET /getuserinfo] nodejs.ReferenceError: error is not defined
+    at module.exports.info (/Users/yangpengcheng/Desktop/node message/possible/app/controller/user.js:75:25)
+    at Object.callFn (/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-core@4.17.3@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-core@4.17.3@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yangpengcheng/Desktop/node message/possible/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yangpengcheng/Desktop/node message/possible/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yangpengcheng/Desktop/node message/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/yangpengcheng/Desktop/node message/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/yangpengcheng/Desktop/node message/possible/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yangpengcheng/Desktop/node message/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/yangpengcheng/Desktop/node message/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+
+pid: 4765
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-10 11:58:51,751 ERROR 4765 [-/192.168.0.129/-/1ms GET /getuserinfo] nodejs.ReferenceError: error is not defined
+    at module.exports.info (/Users/yangpengcheng/Desktop/node message/possible/app/controller/user.js:75:25)
+    at Object.callFn (/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-core@4.17.3@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-core@4.17.3@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yangpengcheng/Desktop/node message/possible/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yangpengcheng/Desktop/node message/possible/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yangpengcheng/Desktop/node message/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/yangpengcheng/Desktop/node message/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/yangpengcheng/Desktop/node message/possible/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yangpengcheng/Desktop/node message/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/yangpengcheng/Desktop/node message/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+
+pid: 4765
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-10 11:58:51,966 ERROR 4765 [-/192.168.0.129/-/1ms GET /getuserinfo] nodejs.ReferenceError: error is not defined
+    at module.exports.info (/Users/yangpengcheng/Desktop/node message/possible/app/controller/user.js:75:25)
+    at Object.callFn (/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-core@4.17.3@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-core@4.17.3@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yangpengcheng/Desktop/node message/possible/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yangpengcheng/Desktop/node message/possible/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yangpengcheng/Desktop/node message/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/yangpengcheng/Desktop/node message/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/yangpengcheng/Desktop/node message/possible/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yangpengcheng/Desktop/node message/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/yangpengcheng/Desktop/node message/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+
+pid: 4765
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-10 13:35:22,049 ERROR 10193 [-/192.168.0.129/-/6ms GET /getuserinfo] nodejs.ReferenceError: error is not defined
+    at module.exports.info (/Users/yangpengcheng/Desktop/node message/possible/app/controller/user.js:75:25)
+    at Object.callFn (/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-core@4.17.3@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-core@4.17.3@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yangpengcheng/Desktop/node message/possible/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yangpengcheng/Desktop/node message/possible/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yangpengcheng/Desktop/node message/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/yangpengcheng/Desktop/node message/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/yangpengcheng/Desktop/node message/possible/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yangpengcheng/Desktop/node message/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/yangpengcheng/Desktop/node message/possible/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+
+pid: 10193
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-10 21:42:03,793 ERROR 10091 nodejs.ClusterClientNoResponseError: client no response in 903702ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yangpengcheng/Desktop/node message/possible/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 10091
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-10 22:12:03,988 ERROR 10091 nodejs.ClusterClientNoResponseError: client no response in 1800188ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yangpengcheng/Desktop/node message/possible/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 10091
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-10 22:35:17,378 ERROR 10091 nodejs.ClusterClientNoResponseError: client no response in 1393061ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yangpengcheng/Desktop/node message/possible/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 10091
+hostname: YangPengChengdeMacBook-Pro.local
+
+2019-12-11 00:08:39,768 ERROR 11653 nodejs.ClusterClientNoResponseError: client no response in 391373ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yangpengcheng/Desktop/node message/possible/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 11653
+hostname: YangPengChengdeMacBook-Pro.local
+

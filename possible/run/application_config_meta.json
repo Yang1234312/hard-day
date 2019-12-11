@@ -1,277 +1,277 @@
 {
-  "keys": "/Users/yangpengcheng/Desktop/possible/config/config.default.js",
+  "keys": "/Users/yangpengcheng/Desktop/node message/possible/config/config.default.js",
   "security": {
     "csrf": {
-      "enable": "/Users/yangpengcheng/Desktop/possible/config/config.default.js",
-      "type": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
-      "ignoreJSON": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
-      "useSession": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
-      "cookieName": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
-      "sessionName": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
-      "headerName": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
-      "bodyName": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
-      "queryName": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
-      "refererWhiteList": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js"
+      "enable": "/Users/yangpengcheng/Desktop/node message/possible/config/config.default.js",
+      "type": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
+      "useSession": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
+      "cookieName": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
+      "sessionName": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
+      "headerName": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
+      "bodyName": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
+      "queryName": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
+      "refererWhiteList": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js"
     },
-    "domainWhiteList": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
-    "protocolWhiteList": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
-    "defaultMiddleware": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
+    "domainWhiteList": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
     "xframe": {
-      "enable": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
-      "value": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js"
+      "enable": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
+      "value": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js"
     },
     "hsts": {
-      "enable": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/config/config.local.js",
-      "maxAge": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
-      "includeSubdomains": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js"
+      "enable": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-security@2.7.1@egg-security/config/config.local.js",
+      "maxAge": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js"
     },
     "dta": {
-      "enable": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js"
+      "enable": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js"
     },
     "methodnoallow": {
-      "enable": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js"
+      "enable": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js"
     },
     "noopen": {
-      "enable": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js"
+      "enable": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js"
     },
     "nosniff": {
-      "enable": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js"
+      "enable": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js"
     },
     "referrerPolicy": {
-      "enable": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
-      "value": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js"
+      "enable": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
+      "value": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js"
     },
     "xssProtection": {
-      "enable": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
-      "value": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js"
+      "enable": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
+      "value": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js"
     },
     "csp": {
-      "enable": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
-      "policy": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js"
+      "enable": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
+      "policy": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js"
     },
     "ssrf": {
-      "ipBlackList": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
-      "checkAddress": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js"
+      "ipBlackList": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
+      "checkAddress": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js"
     }
   },
   "mysql": {
     "client": {
-      "host": "/Users/yangpengcheng/Desktop/possible/config/config.default.js",
-      "port": "/Users/yangpengcheng/Desktop/possible/config/config.default.js",
-      "user": "/Users/yangpengcheng/Desktop/possible/config/config.default.js",
-      "password": "/Users/yangpengcheng/Desktop/possible/config/config.default.js",
-      "database": "/Users/yangpengcheng/Desktop/possible/config/config.default.js"
+      "host": "/Users/yangpengcheng/Desktop/node message/possible/config/config.default.js",
+      "port": "/Users/yangpengcheng/Desktop/node message/possible/config/config.default.js",
+      "user": "/Users/yangpengcheng/Desktop/node message/possible/config/config.default.js",
+      "password": "/Users/yangpengcheng/Desktop/node message/possible/config/config.default.js",
+      "database": "/Users/yangpengcheng/Desktop/node message/possible/config/config.default.js"
     },
     "default": {
-      "database": "/Users/yangpengcheng/Desktop/possible/node_modules/egg-mysql/config/config.default.js",
-      "connectionLimit": "/Users/yangpengcheng/Desktop/possible/node_modules/egg-mysql/config/config.default.js"
+      "database": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/egg-mysql/config/config.default.js",
+      "connectionLimit": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/egg-mysql/config/config.default.js"
     },
-    "app": "/Users/yangpengcheng/Desktop/possible/node_modules/egg-mysql/config/config.default.js",
-    "agent": "/Users/yangpengcheng/Desktop/possible/node_modules/egg-mysql/config/config.default.js"
+    "app": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/egg-mysql/config/config.default.js",
+    "agent": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/egg-mysql/config/config.default.js"
   },
   "session": {
-    "maxAge": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js",
-    "key": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js",
-    "httpOnly": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js",
-    "encrypt": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js"
+    "maxAge": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js",
+    "key": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js",
+    "httpOnly": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js",
+    "encrypt": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js"
   },
   "helper": {
-    "shtml": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js"
+    "shtml": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js"
   },
   "jsonp": {
-    "limit": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/config.default.js",
-    "callback": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/config.default.js",
-    "csrf": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/config.default.js"
+    "limit": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/config.default.js",
+    "callback": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/config.default.js",
+    "csrf": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/config.default.js"
   },
   "onerror": {
-    "errorPageUrl": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-onerror@2.1.0@egg-onerror/config/config.default.js",
-    "appErrorFilter": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-onerror@2.1.0@egg-onerror/config/config.default.js",
-    "templatePath": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-onerror@2.1.0@egg-onerror/config/config.default.js"
+    "errorPageUrl": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-onerror@2.1.0@egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-onerror@2.1.0@egg-onerror/config/config.default.js",
+    "templatePath": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-onerror@2.1.0@egg-onerror/config/config.default.js"
   },
   "i18n": {
-    "defaultLocale": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js",
-    "dirs": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js",
-    "queryField": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js",
-    "cookieField": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js",
-    "cookieDomain": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js",
-    "cookieMaxAge": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js"
+    "defaultLocale": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js",
+    "dirs": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js",
+    "queryField": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js",
+    "cookieField": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js"
   },
   "watcher": {
-    "type": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-watcher@3.1.0@egg-watcher/config/config.local.js",
+    "type": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-watcher@3.1.0@egg-watcher/config/config.local.js",
     "eventSources": {
-      "default": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-watcher@3.1.0@egg-watcher/config/config.default.js",
-      "development": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-watcher@3.1.0@egg-watcher/config/config.default.js"
+      "default": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-watcher@3.1.0@egg-watcher/config/config.default.js",
+      "development": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-watcher@3.1.0@egg-watcher/config/config.default.js"
     }
   },
   "customLogger": {
     "scheduleLogger": {
-      "consoleLevel": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-schedule@3.6.4@egg-schedule/config/config.default.js",
-      "file": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-schedule@3.6.4@egg-schedule/config/config.default.js"
+      "consoleLevel": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-schedule@3.6.4@egg-schedule/config/config.default.js",
+      "file": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-schedule@3.6.4@egg-schedule/config/config.default.js"
     }
   },
   "schedule": {
-    "directory": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-schedule@3.6.4@egg-schedule/config/config.default.js"
+    "directory": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-schedule@3.6.4@egg-schedule/config/config.default.js"
   },
   "multipart": {
-    "mode": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-multipart@2.9.1@egg-multipart/config/config.default.js",
-    "autoFields": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-multipart@2.9.1@egg-multipart/config/config.default.js",
-    "defaultCharset": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-multipart@2.9.1@egg-multipart/config/config.default.js",
-    "fieldNameSize": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-multipart@2.9.1@egg-multipart/config/config.default.js",
-    "fieldSize": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-multipart@2.9.1@egg-multipart/config/config.default.js",
-    "fields": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-multipart@2.9.1@egg-multipart/config/config.default.js",
-    "fileSize": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-multipart@2.9.1@egg-multipart/config/config.default.js",
-    "files": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-multipart@2.9.1@egg-multipart/config/config.default.js",
-    "fileExtensions": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-multipart@2.9.1@egg-multipart/config/config.default.js",
-    "whitelist": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-multipart@2.9.1@egg-multipart/config/config.default.js",
-    "tmpdir": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-multipart@2.9.1@egg-multipart/config/config.default.js",
+    "mode": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-multipart@2.9.1@egg-multipart/config/config.default.js",
+    "autoFields": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-multipart@2.9.1@egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-multipart@2.9.1@egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-multipart@2.9.1@egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-multipart@2.9.1@egg-multipart/config/config.default.js",
+    "fields": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-multipart@2.9.1@egg-multipart/config/config.default.js",
+    "fileSize": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-multipart@2.9.1@egg-multipart/config/config.default.js",
+    "files": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-multipart@2.9.1@egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-multipart@2.9.1@egg-multipart/config/config.default.js",
+    "whitelist": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-multipart@2.9.1@egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-multipart@2.9.1@egg-multipart/config/config.default.js",
     "cleanSchedule": {
-      "cron": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-multipart@2.9.1@egg-multipart/config/config.default.js"
+      "cron": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-multipart@2.9.1@egg-multipart/config/config.default.js"
     }
   },
   "development": {
-    "watchDirs": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-development@2.4.3@egg-development/config/config.default.js",
-    "ignoreDirs": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-development@2.4.3@egg-development/config/config.default.js",
-    "fastReady": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-development@2.4.3@egg-development/config/config.default.js",
-    "reloadOnDebug": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-development@2.4.3@egg-development/config/config.default.js",
-    "overrideDefault": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-development@2.4.3@egg-development/config/config.default.js"
+    "watchDirs": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-development@2.4.3@egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-development@2.4.3@egg-development/config/config.default.js",
+    "fastReady": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-development@2.4.3@egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-development@2.4.3@egg-development/config/config.default.js",
+    "overrideDefault": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-development@2.4.3@egg-development/config/config.default.js"
   },
   "logrotator": {
-    "filesRotateByHour": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
-    "hourDelimiter": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
-    "filesRotateBySize": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
-    "maxFileSize": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
-    "maxFiles": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
-    "rotateDuration": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
-    "maxDays": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js"
+    "filesRotateByHour": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js"
   },
   "static": {
-    "prefix": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
-    "dir": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
-    "dynamic": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
-    "preload": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
-    "buffer": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
-    "maxFiles": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js"
+    "prefix": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
+    "dir": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
+    "dynamic": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
+    "preload": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
+    "buffer": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
+    "maxFiles": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js"
   },
   "view": {
-    "root": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-view@2.1.2@egg-view/config/config.default.js",
-    "cache": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-view@2.1.2@egg-view/config/config.local.js",
-    "defaultExtension": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-view@2.1.2@egg-view/config/config.default.js",
-    "defaultViewEngine": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-view@2.1.2@egg-view/config/config.default.js",
-    "mapping": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg-view@2.1.2@egg-view/config/config.default.js"
+    "root": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-view@2.1.2@egg-view/config/config.default.js",
+    "cache": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-view@2.1.2@egg-view/config/config.local.js",
+    "defaultExtension": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-view@2.1.2@egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-view@2.1.2@egg-view/config/config.default.js",
+    "mapping": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg-view@2.1.2@egg-view/config/config.default.js"
   },
-  "validate": "/Users/yangpengcheng/Desktop/possible/node_modules/egg-validate/config/config.default.js",
-  "env": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
-  "name": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
-  "proxy": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
-  "maxIpsCount": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
-  "maxProxyCount": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
-  "protocolHeaders": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
-  "ipHeaders": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
-  "hostHeaders": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
+  "validate": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/egg-validate/config/config.default.js",
+  "env": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
+  "name": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
+  "proxy": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
+  "maxIpsCount": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
+  "maxProxyCount": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
+  "protocolHeaders": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
+  "ipHeaders": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
+  "hostHeaders": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
   "pkg": {
-    "name": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
-    "version": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
-    "description": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
-    "main": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
+    "name": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
+    "version": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
+    "description": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
+    "main": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
     "scripts": {
-      "dev": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg@2.25.0@egg/config/config.default.js"
+      "dev": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg@2.25.0@egg/config/config.default.js"
     },
-    "keywords": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
-    "author": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
-    "license": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
+    "keywords": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
+    "author": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
+    "license": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
     "dependencies": {
-      "egg-mysql": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
-      "egg-validate": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg@2.25.0@egg/config/config.default.js"
+      "egg-mysql": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
+      "egg-validate": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg@2.25.0@egg/config/config.default.js"
     }
   },
-  "baseDir": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
-  "HOME": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
-  "rundir": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
+  "baseDir": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
+  "HOME": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
+  "rundir": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
   "dump": {
-    "ignore": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg@2.25.0@egg/config/config.default.js"
+    "ignore": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg@2.25.0@egg/config/config.default.js"
   },
   "confusedConfigurations": {
-    "bodyparser": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
-    "notFound": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
-    "sitefile": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
-    "middlewares": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
-    "httpClient": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg@2.25.0@egg/config/config.default.js"
+    "bodyparser": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
+    "notFound": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
+    "sitefile": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
+    "middlewares": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
+    "httpClient": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg@2.25.0@egg/config/config.default.js"
   },
   "notfound": {
-    "pageUrl": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg@2.25.0@egg/config/config.default.js"
+    "pageUrl": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg@2.25.0@egg/config/config.default.js"
   },
   "siteFile": {
-    "/favicon.ico": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg@2.25.0@egg/config/config.default.js"
+    "/favicon.ico": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg@2.25.0@egg/config/config.default.js"
   },
   "bodyParser": {
-    "enable": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
-    "encoding": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
-    "formLimit": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
-    "jsonLimit": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
-    "textLimit": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
-    "strict": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
+    "enable": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
+    "encoding": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
+    "formLimit": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
+    "jsonLimit": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
+    "textLimit": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
+    "strict": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
     "queryString": {
-      "arrayLimit": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
-      "depth": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
-      "parameterLimit": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg@2.25.0@egg/config/config.default.js"
+      "arrayLimit": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
+      "depth": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
+      "parameterLimit": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg@2.25.0@egg/config/config.default.js"
     },
-    "onerror": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg@2.25.0@egg/config/config.default.js"
+    "onerror": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg@2.25.0@egg/config/config.default.js"
   },
   "logger": {
-    "dir": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
-    "encoding": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
-    "env": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
-    "level": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
-    "consoleLevel": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
-    "disableConsoleAfterReady": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
-    "outputJSON": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
-    "buffer": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
-    "appLogName": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
-    "coreLogName": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
-    "agentLogName": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
-    "errorLogName": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
+    "dir": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
+    "encoding": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
+    "env": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
+    "level": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
+    "consoleLevel": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
+    "outputJSON": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
+    "buffer": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
+    "appLogName": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
+    "coreLogName": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
+    "agentLogName": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
+    "errorLogName": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
     "coreLogger": {
-      "consoleLevel": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg@2.25.0@egg/config/config.local.js"
+      "consoleLevel": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg@2.25.0@egg/config/config.local.js"
     },
-    "allowDebugAtProd": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg@2.25.0@egg/config/config.default.js"
+    "allowDebugAtProd": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg@2.25.0@egg/config/config.default.js"
   },
   "httpclient": {
-    "enableDNSCache": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
-    "dnsCacheLookupInterval": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
-    "dnsCacheMaxLength": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
+    "enableDNSCache": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
     "request": {
-      "timeout": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg@2.25.0@egg/config/config.default.js"
+      "timeout": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg@2.25.0@egg/config/config.default.js"
     },
     "httpAgent": {
-      "keepAlive": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
-      "freeSocketTimeout": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
-      "maxSockets": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
-      "maxFreeSockets": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg@2.25.0@egg/config/config.default.js"
+      "keepAlive": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
+      "maxSockets": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
+      "maxFreeSockets": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg@2.25.0@egg/config/config.default.js"
     },
     "httpsAgent": {
-      "keepAlive": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
-      "freeSocketTimeout": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
-      "maxSockets": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
-      "maxFreeSockets": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg@2.25.0@egg/config/config.default.js"
+      "keepAlive": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
+      "maxSockets": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
+      "maxFreeSockets": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg@2.25.0@egg/config/config.default.js"
     }
   },
   "meta": {
-    "enable": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
-    "logging": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg@2.25.0@egg/config/config.default.js"
+    "enable": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
+    "logging": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg@2.25.0@egg/config/config.default.js"
   },
-  "coreMiddleware": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
-  "workerStartTimeout": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
-  "serverTimeout": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
+  "coreMiddleware": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
+  "workerStartTimeout": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
+  "serverTimeout": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
   "cluster": {
     "listen": {
-      "path": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
-      "port": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
-      "hostname": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg@2.25.0@egg/config/config.default.js"
+      "path": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
+      "port": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
+      "hostname": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg@2.25.0@egg/config/config.default.js"
     }
   },
   "clusterClient": {
-    "maxWaitTime": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
-    "responseTimeout": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg@2.25.0@egg/config/config.default.js"
+    "maxWaitTime": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg@2.25.0@egg/config/config.default.js",
+    "responseTimeout": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg@2.25.0@egg/config/config.default.js"
   },
-  "onClientError": "/Users/yangpengcheng/Desktop/possible/node_modules/_egg@2.25.0@egg/config/config.default.js"
+  "onClientError": "/Users/yangpengcheng/Desktop/node message/possible/node_modules/_egg@2.25.0@egg/config/config.default.js"
 }

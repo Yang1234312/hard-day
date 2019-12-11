@@ -11,7 +11,14 @@ import {
     Header,
     Main,
     Footer,
-    Aside
+    Aside,
+    Menu,
+    Submenu,
+    MenuItem,
+    MenuItemGroup,
+    DatePicker
+    
+
 
 
 } from  'element-ui'
@@ -26,3 +33,8 @@ Vue.use(Header)
 Vue.use(Main)
 Vue.use(Footer)
 Vue.use(Aside)
+Vue.use(Menu)
+Vue.use(Submenu)
+Vue.use(MenuItem)
+Vue.use(MenuItemGroup)
+Vue.use(DatePicker)

@@ -1,6 +1,7 @@
 <template>
 <el-container>
-<el-form :model="userinfo" :rules="userRule" ref="myform">
+<el-form :model="userinfo" :rules="userRule" class="user"  ref="myform">
+   
     <el-form-item label="姓名"  prop="username">
         <el-input v-model="userinfo.username">
             
@@ -125,5 +126,15 @@ export default {
 </script>
 
 <style>
-
+.user{
+    margin:  10px auto;
+}
+.setimg{
+    width: 900px;
+    height: 512px;
+}
+.setimg img{
+    width: 100%;
+    height: 100%;
+}
 </style>

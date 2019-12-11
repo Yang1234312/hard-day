@@ -1,6 +1,7 @@
 const Controller=require('egg').Controller;
 const uid=require("uid");
 const jwt=require("jsonwebtoken")//sign
+const {findViews} =require("../../config/view.config.js")
 module.exports=class  extends Controller{
     async  index(ctx){
         let {request}=ctx;
@@ -49,7 +50,7 @@ module.exports=class  extends Controller{
                 msg:'登陆成功',
                 data:{
                     token:jwt.sign({...data},this.app.config.keys,{
-                        expiresIn:60
+                        expiresIn:3600
                     })
                 }
             }
@@ -68,7 +69,15 @@ module.exports=class  extends Controller{
         console.log(this.ctx.get('token'))
         let token=this.ctx.get('token');
         try{
-           let userinfo= jwt.verify(token,this.app.config.keys);
+           let userinfo=jwt.verify(token,this.app.config.keys);
+        let title=await this.app.mysql.get('identi',{
+               id:userinfo.identity
+           })
+           userinfo.userIdetityTitle=title.title
+           
+           console.log(findViews(title.title))
+           userinfo.viewList=findViews(title.title).views;
+           
            this.ctx.body=userinfo
            console.log(userinfo) 
         }catch(err){
@@ -76,12 +85,14 @@ module.exports=class  extends Controller{
             this.ctx.status=401;
             this.ctx.body={
                 code:0,
-                msg:'用户信息错误,可能信息被篡改'
+                msg:'用户登陆超时或用户信息错误,可能信息被篡改',
+
             }
         }
        
        
 
     }
+   
  
 }

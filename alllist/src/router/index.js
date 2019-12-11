@@ -1,13 +1,14 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import HomeBar from "../views/home.vue"
+import {viewList} from "./view.List.js"
+
 
 Vue.use(VueRouter)
 
 const routes = [
   {
     path:"/",
-    redirect:"/register"
+    redirect:"/login"
 
   },
   {
@@ -22,15 +23,26 @@ const routes = [
     },
     
     
-    component: ()=>import("../views/home.vue")
+    component: ()=>import("../views/HomeBar/home.vue"),
+    children:[
+      {
+        path:'/home',
+        redirect:"/home/main"
+      },{
+        path:'/home/main',
+        component:()=>import("../views/HomeBar/child/MainBar/index.vue")
+      },
+      ...viewList
+
+    ]
   },{
     path:'/login',
     
-    component:()=>import("../views/login.vue")
+    component:()=>import("../views/LoginBar/login.vue")
   },{
     path:'/register',
    
-    component:()=>import("../views/register.vue")
+    component:()=>import("../views/Register/register.vue")
   }
   
 ]

@@ -4,3 +4,8 @@ export  const getUserInfo=()=>request.get('/getuserinfo',{
         token:window.localStorage.getItem('token')
 }
 })
+export const submitExam=(data)=>request.post('/submitexam',data,{
+    headers:{
+        token:window.localStorage.getItem('token')
+}
+});
